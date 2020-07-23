@@ -1,0 +1,55 @@
+
+.kalku {
+	font-size: 20px;
+	color: white;
+	font-family: arial;
+	text-align: center;
+	background-color: #FF1493;
+}
+.calculator {
+
+	margin-top: 150px;
+	margin-left: 500px;
+	margin-bottom: 150px;
+	text-align: center;
+	width: 300px;
+	border: 3px solid hotpink;
+}
+.calculator-screen {
+	width: 300px;
+	height: 100px;
+	background-color: hotpink;
+	color: white;
+	text-align: right;
+	font-size: 36px;
+	border: none;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+.calculator-keys {
+	width: 100%;
+}
+.row {
+	display: flex;
+}
+button {
+	height: 50px;
+	background-color: #FF1493;
+	border: 1px solid hotpink;
+	font-size: 20px;
+	color: white;
+	width: 25%;
+	outline: none;
+}
+.all-clear, .zero-btn {
+	width: 50%;
+}
+.operator, .equal-sign {
+	background-color: #C71585;
+}
+button:hover {
+	background-color: lightpink;
+}
+.operator:hover, .equal-sign:hover {
+	background-color: #FFC0CB;
+}
